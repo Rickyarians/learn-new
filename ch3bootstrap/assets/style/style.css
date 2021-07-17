@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+.pake-open-sans {
+    font-family: 'Open Sans', sans-serif;
+}
+.btn-primary {
+    background-color: red;
+}
+
+.navbar-brand-custom {
+    font-size: 26px;
+}
+
+.intro-game { 
+    background-image: url('./../images/intro.jpg'); ;
+    height: 100vh;
+    background-size: cover;
+    background-position: bottom;
+
+}
+
+
+.section2 { 
+    background-image: url('./../images/section2.png'); ;
+    height: 100vh;
+    background-size: cover;
+    background-position: bottom;
+
+}
+
+
+.bg-intro-navbar {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.navbar * {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.navbar li {
+    letter-spacing: 0.2em;
+    font-size: 14px;
+    margin-right: 25px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar-nav {
+    margin-left: 100px;
+}
+
+.navbar li a {
+    text-decoration: none;
+}
+
+.intro-hero {
+    height: 80vh;
+    text-align: center;
+}
+
+.h1-intro-game {
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 5px;
+    margin-bottom: 30px;
+    font-size: 90px;
+    font-family: 'Bebas Neue', cursive;
+}
+.h3-intro-game {
+    color: #fff;
+   
+    margin-bottom: 30px;
+}
+
+.btn-intro-game {
+    background: linear-gradient(194.68deg, #FFB548 11.27%, #F3AF34 90.4%);
+    border-radius: 4px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    padding: 20px 80px;
+    font-size: 14px;
+    color: black;
+    border: none;
+}
+
+/* .btn-intro-game:hover {
+    background: white;
+    border: 1px solid #FFB548;
+    color: #FFB548;
+} */
+
+
+/* Animation */
+
+.wrapper {
+    text-align: center;
+    height: 100px;
+    position: relative;
+    animation-name: down-animation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    
+  }
+  
+  @keyframes down-animation { 
+    /* keadaan awal */
+    0%   { left:0px; top:0px;} 
+    /* keaddan pertengahan */
+    50%  {left:0px; top:100px;}
+    /* keaddan semula */
+    100% { left:0px; top:0px;}
+  }
+
+
+
+@media only screen and (max-width:320px) {
+    .navbar-nav {
+        margin-left: 0px;
+    }
+
+    .h1-intro-game {
+        font-size: 40px;
+    }
+}
