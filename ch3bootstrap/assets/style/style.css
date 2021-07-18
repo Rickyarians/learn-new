@@ -30,6 +30,14 @@
 
 }
 
+.section3 { 
+   
+    height: 100vh;
+    background-size: cover;
+    background-position: bottom;
+
+}
+
 
 .bg-intro-navbar {
     background-color: rgba(0, 0, 0, 0.5);
